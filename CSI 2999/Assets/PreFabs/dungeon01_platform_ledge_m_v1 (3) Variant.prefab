@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2943858719480533686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 74549517865595975, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_Name
+      value: dungeon01_platform_ledge_m_v1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 74549517865595975, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 74549517865595975, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248516501612334326, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_UsedByComposite
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836482029141302468, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000034524009756323, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000034524009756323, guid: 047e8252fa530544795ee289e7524566, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 047e8252fa530544795ee289e7524566, type: 3}
+--- !u!1 &3013600345912567537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 74549517865595975, guid: 047e8252fa530544795ee289e7524566, type: 3}
+  m_PrefabInstance: {fileID: 2943858719480533686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &4145898588280708672 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 1248516501612334326, guid: 047e8252fa530544795ee289e7524566, type: 3}
+  m_PrefabInstance: {fileID: 2943858719480533686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!66 &1015013393
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3013600345912567537}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 4145898588280708672}
+    m_ColliderPaths:
+    - - X: 3199707
+        Y: -3200000
+      - X: 3199707
+        Y: 1992584
+      - X: -3200000
+        Y: 1992291
+      - X: -3199707
+        Y: -3200000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 0.3199414, y: -0.32}
+      - {x: 0.3199414, y: 0.1992584}
+      - {x: -0.32, y: 0.1991998}
+      - {x: -0.3199414, y: -0.32}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
