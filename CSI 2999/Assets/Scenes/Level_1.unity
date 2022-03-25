@@ -418,6 +418,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.25454408
       objectReference: {fileID: 0}
+    - target: {fileID: 2424448025341896973, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424448025341896973, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
+      propertyPath: m_UsedByComposite
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3161818909782272076, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -2328,7 +2336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273379593}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9, y: 1.73, z: 0}
+  m_LocalPosition: {x: 8.93, y: 1.55, z: 0}
   m_LocalScale: {x: 48.530357, y: 13.822646, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2864,7 +2872,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -4339,7 +4347,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -7195,7 +7203,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -7748,7 +7756,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -9530,7 +9538,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -10665,7 +10673,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -10933,7 +10941,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
+  m_GeometryType: 1
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths: []
@@ -15015,6 +15023,7 @@ GameObject:
   - component: {fileID: 1541835670}
   - component: {fileID: 1541835672}
   - component: {fileID: 1541835673}
+  - component: {fileID: 1541835674}
   m_Layer: 0
   m_Name: dungeon01_wall_arches_door_l_v2_open_1
   m_TagString: Untagged
@@ -15126,6 +15135,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.55940366}
   m_EdgeRadius: 0
+--- !u!114 &1541835674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541835669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e09e12760ea2e4640b2a9d47f62f7125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newLevel: StartingRoom
 --- !u!1001 &1542335807
 PrefabInstance:
   m_ObjectHideFlags: 0
