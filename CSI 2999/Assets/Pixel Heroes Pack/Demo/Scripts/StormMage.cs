@@ -14,9 +14,12 @@ public class StormMage : MonoBehaviour
     private bool                m_grounded = false;
     private float               m_delayToIdle = 0.0f;
 
+
     // Use this for initialization
     void Start()
     {
+        
+
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_PixelHeroes>();
@@ -97,4 +100,5 @@ public class StormMage : MonoBehaviour
                 m_animator.SetInteger("AnimState", 0);
         }
     }
+
 }
