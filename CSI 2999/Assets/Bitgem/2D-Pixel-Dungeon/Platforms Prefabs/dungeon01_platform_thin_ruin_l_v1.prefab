@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8508774041174543360}
   - component: {fileID: 8508774041174543487}
   - component: {fileID: 8508774041174543486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: dungeon01_platform_thin_ruin_l_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

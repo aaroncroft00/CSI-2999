@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4272602698074337249}
   - component: {fileID: 4272602698074337248}
   - component: {fileID: 4272602698074337255}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: dungeon01_platform_thin_l_v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

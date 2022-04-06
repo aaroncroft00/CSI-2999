@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2378554539007130408}
   - component: {fileID: 8800314304556027613}
   - component: {fileID: 5908181838702794232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: dungeon01_platform_br_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
