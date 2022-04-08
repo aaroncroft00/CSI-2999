@@ -4,8 +4,8 @@ using System.Collections;
 public class StormMage : MonoBehaviour
 {
 
-    [SerializeField] float      m_speed = 3.0f;
-    [SerializeField] float      m_jumpForce = 5.0f;
+    public float      m_speed = 3.0f;
+    public float      m_jumpForce = 5.0f;
     [SerializeField] bool       m_noBlood = false;
     [SerializeField] GameObject m_projectile;
     [SerializeField] Vector3 m_projectionSpawnOffset;
