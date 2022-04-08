@@ -367,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2424448025341896973, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
       propertyPath: m_UsedByComposite
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2537903827531734318, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
       propertyPath: m_Material
@@ -424,6 +424,18 @@ PrefabInstance:
     - target: {fileID: 7317919854142885187, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
       propertyPath: m_jumpForce
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317919854142885187, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
+      propertyPath: m_projectile
+      value: 
+      objectReference: {fileID: 2820902244605176241, guid: f430d7083bdbda341bf71c855e1e3e5a, type: 3}
+    - target: {fileID: 7317919854142885187, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
+      propertyPath: m_projectionSpawnOffset.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317919854142885187, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
+      propertyPath: m_projectionSpawnOffset.y
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8636928859673010084, guid: 3421bbc98c6dd4a4ebb94d9e03b2fd2c, type: 3}
       propertyPath: m_SortingOrder

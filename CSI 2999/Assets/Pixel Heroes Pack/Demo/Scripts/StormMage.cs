@@ -7,12 +7,15 @@ public class StormMage : MonoBehaviour
     [SerializeField] float      m_speed = 3.0f;
     [SerializeField] float      m_jumpForce = 5.0f;
     [SerializeField] bool       m_noBlood = false;
+    [SerializeField] GameObject m_projectile;
+    [SerializeField] Vector3 m_projectionSpawnOffset;
 
     private Animator            m_animator;
     private Rigidbody2D         m_body2d;
     private Sensor_PixelHeroes  m_groundSensor;
     private bool                m_grounded = false;
     private float               m_delayToIdle = 0.0f;
+    private int        m_facingDirection = 1;
 
 
     // Use this for initialization
@@ -47,9 +50,15 @@ public class StormMage : MonoBehaviour
 
         // Swap direction of sprite depending on walk direction
         if (inputX > 0)
+        {
             GetComponent<SpriteRenderer>().flipX = false;
+            m_facingDirection = 1;
+        }
         else if (inputX < 0)
+        {
+            m_facingDirection = -1;
             GetComponent<SpriteRenderer>().flipX = true;
+        }
 
         // Move
         m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
@@ -72,6 +81,9 @@ public class StormMage : MonoBehaviour
         //Attack
         else if (Input.GetMouseButtonDown(0))
             m_animator.SetTrigger("Attack");
+
+        else if (Input.GetKeyDown("f")) 
+            m_animator.SetTrigger("Throw");
 
         //Jump
         else if (Input.GetKeyDown("space") && m_grounded)
@@ -100,5 +112,20 @@ public class StormMage : MonoBehaviour
                 m_animator.SetInteger("AnimState", 0);
         }
     }
+
+    public void SpawnProjectile()
+    {
+        if (m_projectile != null)
+        {
+            // Set correct arrow spawn position
+            Vector3 facingVector = new Vector3(m_facingDirection, 1, 1);
+            Vector3 projectionSpawnPosition = transform.localPosition + Vector3.Scale(m_projectionSpawnOffset, facingVector);
+            GameObject bolt = Instantiate(m_projectile, projectionSpawnPosition, gameObject.transform.localRotation) as GameObject;
+            // Turn arrow in correct direction
+            bolt.transform.localScale = facingVector;
+        }
+    }
+
+
 
 }
