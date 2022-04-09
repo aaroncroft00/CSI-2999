@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class StormMage : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class StormMage : MonoBehaviour
     [SerializeField] bool       m_noBlood = false;
     [SerializeField] GameObject m_projectile;
     [SerializeField] Vector3 m_projectionSpawnOffset;
+    public string activeScene = "Level_1";
 
     private Animator            m_animator;
     private Rigidbody2D         m_body2d;
@@ -101,6 +103,12 @@ public class StormMage : MonoBehaviour
             // Reset timer
             m_delayToIdle = 0.05f;
             m_animator.SetInteger("AnimState", 1);
+        }
+        //Open Menu
+        else if(Input.GetKeyDown("r"))
+        {
+            SceneManager.LoadScene("Main_Menu");
+           activeScene = SceneManager.GetActiveScene().name;
         }
 
         //Idle
