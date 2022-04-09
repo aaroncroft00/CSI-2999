@@ -12,12 +12,13 @@ public class StormMage : MonoBehaviour
     [SerializeField] Vector3 m_projectionSpawnOffset;
     public string activeScene = "Level_1";
 
+
     private Animator            m_animator;
     private Rigidbody2D         m_body2d;
     private Sensor_PixelHeroes  m_groundSensor;
     private bool                m_grounded = false;
     private float               m_delayToIdle = 0.0f;
-    private int        m_facingDirection = 1;
+    private int                 m_facingDirection = 1;
 
 
     // Use this for initialization
@@ -107,8 +108,15 @@ public class StormMage : MonoBehaviour
         //Open Menu
         else if(Input.GetKeyDown("r"))
         {
+            //Opens main menu
             SceneManager.LoadScene("Main_Menu");
+            //updates scene (level) player is in
            activeScene = SceneManager.GetActiveScene().name;
+            //Pauses game
+            Time.timeScale = 0;
+
+
+
         }
 
         //Idle

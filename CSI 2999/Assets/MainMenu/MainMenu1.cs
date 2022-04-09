@@ -20,5 +20,7 @@ public class MainMenu1 : MonoBehaviour
    {
        StormMage currentScene = new StormMage();
        SceneManager.LoadScene(currentScene.activeScene);
+       //resumes the game
+       Time.timeScale = 0;
    }
 }
