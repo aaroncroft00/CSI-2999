@@ -5,11 +5,12 @@ using UnityEngine;
 public class MenuMusic : MonoBehaviour
 {
     public AudioSource AudioSource;
-    public float musicVolume = 1f;
+    //public float musicVolume;
     
     public void updateVolume(float volume)
     {
         AudioSource.volume = volume;
+
 
         //Debug.Log(musicVolume);
     }
