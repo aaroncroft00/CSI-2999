@@ -5,17 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu1 : MonoBehaviour
 {
-   // StormMage currentScene = new StormMage();
     
    public void quitButton()
    {
-       Application.Quit();
-
        Debug.Log("Quit");
    }
 
+   public void openQuitScene()
+   {
+     SceneManager.LoadScene("Quit_Screen");  
+   }
 
-    //Once this works, add it to OnClick under Resume in Unity
    public void resume()
    {
        StormMage currentScene = new StormMage();
