@@ -30,6 +30,11 @@ public class Score
 
         scoreText.updateScore();
     }
+
+    public static void clearScore()
+    {
+        scoreval = 0;
+    }
 }
 
 /* To use: Call Score.addScore(int); */
