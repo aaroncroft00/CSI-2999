@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 386ed48ac9efa594bbf0a7099a56e86e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 00f02830bc19842adbcc4fcde20eb341, type: 3}
+  - {fileID: 21300000, guid: fdb550509659347d4b4c37d05c566ad2, type: 3}
+  - {fileID: 21300000, guid: 2298eed038e8b4a3089b59aae0afbbe7, type: 3}
+  - {fileID: 21300000, guid: dd247f222c6264ca39475b75487a73f5, type: 3}
+  - {fileID: 21300000, guid: 563556f49d526459caa611ebd16ba049, type: 3}
+  - {fileID: 21300000, guid: 644d0c456f11e4f3a8bfed6bd6c62e5e, type: 3}
+  - {fileID: 21300000, guid: 79c2c726d52814a1c80e5bb3a4627fd3, type: 3}
+  - {fileID: 21300000, guid: 2b7a26e786ce647949fe93bc248c77ea, type: 3}
+  - {fileID: 21300000, guid: afbdf7087d4a245c4b7e071b61787f94, type: 3}
+  - {fileID: 21300000, guid: 978f3b887382f4ea7bb4a05ccae8d671, type: 3}
+  - {fileID: 21300000, guid: aab807ebc17334cb29e119f602ccf1b0, type: 3}
+  - {fileID: 21300000, guid: ca4dc75c4cca84658b20e61c406cc5b5, type: 3}
+  - {fileID: 21300000, guid: 8c2b057cc49584bffb4781471ebcc7ab, type: 3}
+  - {fileID: 21300000, guid: 6d15c03edf63546959ebef5c555dc1b2, type: 3}
+  - {fileID: 21300000, guid: 45d6ae8e156324f6dabb024742201060, type: 3}
+  - {fileID: 21300000, guid: f9c37e6f72a5d4187af8f85c69a03557, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - punch5
+  - idle1
+  - walk2
+  - walk1
+  - idle4
+  - idle2
+  - walk3
+  - punch2
+  - walk4
+  - punch3
+  - punch4
+  - walk5
+  - punch1
+  - walk6
+  - punch6
+  - idle3
+  m_RenderDataMap: {}
+  m_Tag: Player
+  m_IsVariant: 0
