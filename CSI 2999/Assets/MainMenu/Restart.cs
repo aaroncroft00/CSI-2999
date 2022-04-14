@@ -7,6 +7,9 @@ public class Restart : MonoBehaviour
 {
     public void loadStartingRoom()
     {
-SceneManager.LoadScene("StartingRoom");
+    //Score.clearScore();
+    
+    SceneManager.LoadScene("StartingRoom");
     }
+
 }

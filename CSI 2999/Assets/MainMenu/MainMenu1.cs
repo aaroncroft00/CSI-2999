@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu1 : MonoBehaviour
 {
-    
    public void quitButton()
    {
        Debug.Log("Quit");
@@ -18,9 +17,8 @@ public class MainMenu1 : MonoBehaviour
 
    public void resume()
    {
-       StormMage currentScene = new StormMage();
-       SceneManager.LoadScene(currentScene.activeScene);
+     SceneManager.LoadScene(PlayerPrefs.GetInt("SavedScene"));
        //resumes the game
-       Time.timeScale = 0;
+       Time.timeScale = 1;
    }
 }
