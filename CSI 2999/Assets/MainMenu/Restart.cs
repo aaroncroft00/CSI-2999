@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
+
     public void loadStartingRoom()
     {
-    //Score.clearScore();
-    
     SceneManager.LoadScene("StartingRoom");
+    
+    Score.clearScore();
     }
 
 }
