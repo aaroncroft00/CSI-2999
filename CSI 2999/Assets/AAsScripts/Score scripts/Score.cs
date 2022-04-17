@@ -13,7 +13,7 @@ public class Score
     static Score()
     {
         scoreval = 0;
-        scoreText = GameObject.Find("UI").GetComponent<ScoreChange>();
+        scoreText = GameObject.Find("Canvas").GetComponent<ScoreChange>();
     }
 
     public static void addScore(int a)

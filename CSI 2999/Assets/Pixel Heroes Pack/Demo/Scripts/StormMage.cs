@@ -10,7 +10,6 @@ public class StormMage : MonoBehaviour
     [SerializeField] bool       m_noBlood = false;
     [SerializeField] GameObject m_projectile;
     [SerializeField] Vector3 m_projectionSpawnOffset;
-    public string activeScene = "Level_1";
 
 
     private Animator            m_animator;
@@ -29,6 +28,7 @@ public class StormMage : MonoBehaviour
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_PixelHeroes>();
+
     }
 
     // Update is called once per frame
@@ -108,10 +108,9 @@ public class StormMage : MonoBehaviour
         //Open Menu
         else if(Input.GetKeyDown("r"))
         {
+            PlayerPrefs.SetInt("SavedScene", SceneManager.GetActiveScene().buildIndex);
             //Opens main menu
             SceneManager.LoadScene("Main_Menu");
-            //updates scene (level) player is in
-           activeScene = SceneManager.GetActiveScene().name;
             //Pauses game
             Time.timeScale = 0;
 

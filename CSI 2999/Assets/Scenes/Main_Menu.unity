@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -81}
+  m_AnchoredPosition: {x: -2, y: -66}
   m_SizeDelta: {x: 160, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119053001
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 821938707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7176758ffa4752449dc22cbc5af20ee, type: 3}
+  m_Script: {fileID: 11500000, guid: bc725f635db62cd4485be2bf67e74ccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &894295036
@@ -1973,7 +1973,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e7004b81ee6f73b488f53baa654b4e72, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -2207,6 +2207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AudioSource: {fileID: 1683790475}
+  musicVolume: 1
+  volumeSlider: {fileID: 1545086824}
 --- !u!1 &1848334006
 GameObject:
   m_ObjectHideFlags: 0

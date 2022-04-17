@@ -23,6 +23,8 @@ public static class StatusEffects
         weakFlag = false;
         moonFlag = false;
         poisonFlag = false;
+        healFlag = false;
+
 
 
         playerObj = GameObject.FindWithTag("Player");
@@ -54,18 +56,24 @@ public static class StatusEffects
                 break;
         }
 
+    }
+
+    public static void updateHealStatus()
+    {
         switch (poisonFlag)
         {
             case true:
-                playerHealth.currentHealth -= 1;
+                playerHealth.TakeDamage(1);
+                Debug.Log("TakeDamageCall");
                 break;
         }
 
         switch (healFlag)
         {
             case true:
-                playerHealth.currentHealth += 1;
+                playerHealth.TakeDamage(-1);
                 break;
         }
     }
 }
+

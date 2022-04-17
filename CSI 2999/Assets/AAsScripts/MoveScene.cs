@@ -17,7 +17,9 @@ public class MoveScene : MonoBehaviour
     {
         if(Input.GetKeyDown("t") && playerInZone)
         {
+            UnityDidntLetMeUseTiming.endLevelScore();
             SceneManager.LoadScene(newLevel);
+            Debug.Log("debugging debugger");
         }
     }
 
