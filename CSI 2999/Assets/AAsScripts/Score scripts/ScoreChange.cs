@@ -10,6 +10,7 @@ public class ScoreChange : MonoBehaviour
     void Start()
     {
         updateScore();
+        UnityDidntLetMeUseTiming.getStartTime();
     }
 
     // Update is called once per frame

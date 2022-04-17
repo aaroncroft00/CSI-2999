@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    void TakeDamage(int amount)
+    public void TakeDamage(int amount)
     {
         currentHealth -= amount;
 
@@ -26,6 +26,9 @@ public class Health : MonoBehaviour
             //dead
             //Play death animation 
 
+        }else if(currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
         }
     }
 }
