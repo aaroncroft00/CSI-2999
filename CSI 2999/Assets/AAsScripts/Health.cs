@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -23,10 +24,12 @@ public class Health : MonoBehaviour
 
         if(currentHealth <= 0 )
         {
-            //dead
-            //Play death animation 
 
-        }else if(currentHealth > maxHealth)
+                Destroy(gameObject);
+                SceneManager.LoadScene("Main_Menu");
+
+        }
+        else if(currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
         }
