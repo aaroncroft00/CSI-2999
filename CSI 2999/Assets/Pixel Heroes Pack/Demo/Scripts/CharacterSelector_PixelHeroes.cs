@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterSelector_PixelHeroes : MonoBehaviour {
-
+    /*
     // Create an array of arrays
     [System.Serializable]
     public class ColorsCharacters
@@ -75,5 +75,7 @@ public class CharacterSelector_PixelHeroes : MonoBehaviour {
         // Show next special instruction text
         if (characters[m_index].instructionText)
             characters[m_index].instructionText.SetActive(true);
-    }
+
+    
+    }*/
 }
