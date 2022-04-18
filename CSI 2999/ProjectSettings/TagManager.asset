@@ -50,12 +50,18 @@ TagManager:
   - name: Walls
     uniqueID: 3349330751
     locked: 0
+  - name: InBtwnWalls
+    uniqueID: 3183088185
+    locked: 0
   - name: Ground
     uniqueID: 4003418237
     locked: 0
   - name: Player
     uniqueID: 177277507
     locked: 0
-  - name: New Layer
+  - name: WindowsTower
     uniqueID: 2720140541
+    locked: 0
+  - name: New Layer
+    uniqueID: 975887783
     locked: 0
