@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 4f110cefcfa9e2c488be867209c62a71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5137348341922642318
+    second: pngkey.com-doors-png-958715_0
+  - first:
+      213: 4707347942029636248
+    second: pngkey.com-doors-png-958715_1
+  - first:
+      213: -974408651892478633
+    second: pngkey.com-doors-png-958715_2
+  - first:
+      213: 545706273197344424
+    second: pngkey.com-doors-png-958715_3
+  - first:
+      213: -5953863847719422628
+    second: pngkey.com-doors-png-958715_4
+  - first:
+      213: 3106117450411922435
+    second: pngkey.com-doors-png-958715_5
+  - first:
+      213: -6034373134333980363
+    second: pngkey.com-doors-png-958715_6
+  - first:
+      213: -6553974538820361211
+    second: pngkey.com-doors-png-958715_7
+  - first:
+      213: -232903362367691872
+    second: pngkey.com-doors-png-958715_8
+  - first:
+      213: -6077371223722465066
+    second: pngkey.com-doors-png-958715_9
+  - first:
+      213: -4737150344415356816
+    second: pngkey.com-doors-png-958715_10
+  - first:
+      213: -8166562364904438060
+    second: pngkey.com-doors-png-958715_11
+  - first:
+      213: 31336259831599588
+    second: pngkey.com-doors-png-958715_12
+  - first:
+      213: -376406065265800293
+    second: pngkey.com-doors-png-958715_13
+  - first:
+      213: -6697240725438414846
+    second: pngkey.com-doors-png-958715_14
+  - first:
+      213: -601325851690238162
+    second: pngkey.com-doors-png-958715_15
+  - first:
+      213: 3171133194030727917
+    second: pngkey.com-doors-png-958715_16
+  - first:
+      213: 610099367155845726
+    second: pngkey.com-doors-png-958715_17
+  - first:
+      213: 8800801292180323234
+    second: pngkey.com-doors-png-958715_18
+  - first:
+      213: 2863601677296826505
+    second: pngkey.com-doors-png-958715_19
+  - first:
+      213: -6243024716998474051
+    second: pngkey.com-doors-png-958715_20
+  - first:
+      213: 2465034509096353599
+    second: pngkey.com-doors-png-958715_21
+  - first:
+      213: -1787604979720498629
+    second: pngkey.com-doors-png-958715_22
+  - first:
+      213: 127563495209248133
+    second: pngkey.com-doors-png-958715_23
+  - first:
+      213: 6478253926210954712
+    second: pngkey.com-doors-png-958715_24
+  - first:
+      213: 7867176424818499023
+    second: pngkey.com-doors-png-958715_25
+  - first:
+      213: 3475820838758090906
+    second: pngkey.com-doors-png-958715_26
+  - first:
+      213: 5666988110687411046
+    second: pngkey.com-doors-png-958715_27
+  - first:
+      213: 6318526449348217751
+    second: pngkey.com-doors-png-958715_28
+  - first:
+      213: -8379009677215306169
+    second: pngkey.com-doors-png-958715_29
+  - first:
+      213: -444085840037600273
+    second: pngkey.com-doors-png-958715_30
+  - first:
+      213: -5906147091420897136
+    second: pngkey.com-doors-png-958715_31
+  - first:
+      213: -561000225170430614
+    second: pngkey.com-doors-png-958715_32
+  - first:
+      213: 7837440108954268712
+    second: pngkey.com-doors-png-958715_33
+  - first:
+      213: 4271747541316123196
+    second: pngkey.com-doors-png-958715_34
+  - first:
+      213: 1688276775001869942
+    second: pngkey.com-doors-png-958715_35
+  - first:
+      213: 3325540551952315269
+    second: pngkey.com-doors-png-958715_36
+  - first:
+      213: 3260401509041220324
+    second: pngkey.com-doors-png-958715_37
+  - first:
+      213: 7351236267266031668
+    second: pngkey.com-doors-png-958715_38
+  - first:
+      213: -9170181475575197762
+    second: pngkey.com-doors-png-958715_39
+  - first:
+      213: 5926516328353581718
+    second: pngkey.com-doors-png-958715_40
+  - first:
+      213: 4515551216254464928
+    second: pngkey.com-doors-png-958715_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkey.com-doors-png-958715_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 464
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89bdbf19178b4740800000000000000
+      internalID: 5137348341922642318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doors-png-958715_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 368
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892b7de330cd35140800000000000000
+      internalID: 4707347942029636248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doors-png-958715_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 272
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75da1e56e743a72f0800000000000000
+      internalID: -974408651892478633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkey.com-doors-png-958715_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 208
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a641a5d6fcb29700800000000000000
+      internalID: 545706273197344424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

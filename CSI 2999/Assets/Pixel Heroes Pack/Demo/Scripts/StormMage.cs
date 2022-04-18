@@ -17,7 +17,10 @@ public class StormMage : MonoBehaviour
     private Sensor_PixelHeroes  m_groundSensor;
     private bool                m_grounded = false;
     private float               m_delayToIdle = 0.0f;
-    private int                 m_facingDirection = 1;
+    private int        m_facingDirection = 1;
+    public bool ClimbingAllowed { get; set; }
+    private float dirx, diry;
+    private bool playerInZone;
 
 
     // Use this for initialization
@@ -34,6 +37,7 @@ public class StormMage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         //Check if character just landed on the ground
         if (!m_grounded && m_groundSensor.State())
         {
@@ -64,7 +68,15 @@ public class StormMage : MonoBehaviour
         }
 
         // Move
-        m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
+        //m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
+
+        dirx = Input.GetAxisRaw("Horizontal") * m_speed;
+
+        if (ClimbingAllowed)
+        {
+            diry = Input.GetAxisRaw("Vertical") * m_speed;
+        }
+
 
         //Set AirSpeed in animator
         m_animator.SetFloat("AirSpeedY", m_body2d.velocity.y);
@@ -126,7 +138,23 @@ public class StormMage : MonoBehaviour
             if (m_delayToIdle < 0)
                 m_animator.SetInteger("AnimState", 0);
         }
+
     }
+
+    private void FixedUpdate()
+    {
+        if (ClimbingAllowed)
+        {
+            m_body2d.isKinematic = true;
+            m_body2d.velocity = new Vector2(dirx, diry);
+        }
+        else
+        {
+            m_body2d.isKinematic = false;
+            m_body2d.velocity = new Vector2(dirx, m_body2d.velocity.y);
+        }
+    }
+
 
     public void SpawnProjectile()
     {
@@ -140,7 +168,6 @@ public class StormMage : MonoBehaviour
             bolt.transform.localScale = facingVector;
         }
     }
-
 
 
 }
