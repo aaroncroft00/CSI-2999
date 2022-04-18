@@ -19,7 +19,7 @@ public class MoveScene : MonoBehaviour
         {
 
             SceneManager.LoadScene(newLevel);
-            UnityDidntLetMeUseTiming.endLevelScore();
+            //UnityDidntLetMeUseTiming.endLevelScore();
             Debug.Log("debugging debugger");
         }
     }
