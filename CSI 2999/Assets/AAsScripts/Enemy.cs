@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
+
 
 public class Enemy : MonoBehaviour
 {   
@@ -8,7 +11,7 @@ public class Enemy : MonoBehaviour
     public float speed;
     private float dazedTime;
     public float startDazedTime;
-
+    public Slider healthBar;
     private Animator anim;
 
 
@@ -24,6 +27,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        healthBar.value = health;
         if(dazedTime <= 0){
             speed = 5;
         } else {
